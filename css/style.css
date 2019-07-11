@@ -878,3 +878,137 @@ header {
         margin-right: 115px;
     }
 }
+.team {
+    padding-top: 99px;
+    background-color: white;
+    background-image: url(../img/bgi_whix_spot.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.team-work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-work_title {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+.team-work_title  span {
+    color: #ff0036;
+}
+.team-work_txt {
+    color: #505050;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 97px;
+}
+.team-work_txt span {
+    color: #ff0036;
+
+}
+.team-work-persons {
+    display: flex;
+    justify-content: center;
+
+}
+.team-work-persons_item {
+    box-sizing: border-box;
+    width: 270px;
+    height: 361px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.team-work-persons_item__img {
+    width: 270px;
+    height: 240px;
+}
+.team-work-persons_item__name {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 270px;
+    display: block;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 24px;
+}
+.team-work-persons_item__job {
+    color: #505050;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+}
+.team-work-persons_item__facebook {
+    display: none;
+    width: 45px;
+    height: 41px;
+    position: absolute;
+    background-image: url(../img/facebook1.png);
+    top: 100px;
+    left: 58px;
+}
+.team-work-persons_item__twitter {
+    display: none;
+    width: 45px;
+    height: 41px;
+    position: absolute;
+    background-image: url(../img/twitter.png);
+    top: 100px;
+    left: 113px;
+}
+.team-work-persons_item__google {
+    display: none;
+    width: 45px;
+    height: 41px;
+    position: absolute;
+    background-image: url(../img/google.png);
+    top: 100px;
+    left: 168px;
+}
+.team-work-persons_item__overlay {
+    width: 270px;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.85;
+    display: none;
+}
+.team-work-persons_item:hover .team-work-persons_item__name{
+    color: #ff0036;
+}
+.team-work-persons_item:hover .team-work-persons_item__facebook {
+    display: block;
+}
+.team-work-persons_item:hover .team-work-persons_item__overlay {
+    display: block;
+}
+.team-work-persons_item:hover .team-work-persons_item__twitter {
+    display: block;
+}
+.team-work-persons_item:hover .team-work-persons_item__google {
+    display: block;
+}
+@media (min-width: 1200px) {
+
+}
